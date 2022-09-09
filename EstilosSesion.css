@@ -16,9 +16,14 @@
     align-items: center;
 
 }
+.style .cabeza #name{
+    display: flex;
+    align-content: center;
+}
 
-.style .cabeza #name #nombre:hover{
-    font-size: 20px;
+.style .cabeza #name #nombre{
+    padding-left: 14px;
+    font-size: 23px;
     letter-spacing: 1px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -32,6 +37,10 @@
 @keyframes text {
     from { background-position: 0% 50%; }
     to { background-position: 100% 100%; }
+}
+.style #Logo{
+    margin-left: 14px;
+    height: 28px;
 }
 .style .cabeza #buscar{
     display: block;
@@ -91,8 +100,6 @@
 .inicio{
     color: #ffc300;
     display: flex;
-    text-align: center;
-    align-items: center;
     flex-direction: column;
     margin: 10px;
     
@@ -104,28 +111,44 @@
 
 }
 
-.inicio #imagen{
-    max-width: 200px;
+.inicio #marca{
+    position: relative;
+    left: 430px;
+    text-align: center;
 }
 
-.inicio .contenedor01{
+.inicio #marca #imagen{
+    max-width: 100px;
+    position: relative;
     
-    display: flex;
-    width: 400px;
-    border-radius: 20px;
-    justify-content: center;
-    border-color: #ffffff;
-    
-}
-.inicio .contenedor .form {
-    display: flex;
-    flex-direction: column;
 }
 
+.inicio .contenedor .form #mail, #contraseña{
+    margin: 5px;
+    width: 180px;
+    height: 20px;
+    border-radius: 34px;
+    border-style: none;   
+    text-indent: 30px;
+}
+
+.inicio .contenedor .form #e-mail{
+    display: inline;
+}
+
+.inicio .contenedor .form #imagen_mail{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    margin-top: 7px;
+    margin-left: 12px;
+    opacity: 0.5;
+
+}
 
 .inicio .contenedor .form #Enviar{
-    align-self: flex-end;
-    justify-self: flex-end;
+    position: relative;
+    left: 200px;
     width: 150px;
     height: 30px;
     background: #FFC300;
