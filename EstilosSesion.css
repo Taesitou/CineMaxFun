@@ -16,9 +16,14 @@
     align-items: center;
 
 }
+.style .cabeza #name{
+    display: flex;
+    align-content: center;
+}
 
-.style .cabeza #name #nombre:hover{
-    font-size: 20px;
+.style .cabeza #name #nombre{
+    padding-left: 14px;
+    font-size: 23px;
     letter-spacing: 1px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -32,6 +37,10 @@
 @keyframes text {
     from { background-position: 0% 50%; }
     to { background-position: 100% 100%; }
+}
+.style #Logo{
+    margin-left: 14px;
+    height: 28px;
 }
 .style .cabeza #buscar{
     display: block;
@@ -108,22 +117,20 @@
     max-width: 200px;
 }
 
-.inicio .contenedor01{
-    
+
+
+.inicio{
     display: flex;
     width: 400px;
     border-radius: 20px;
-    justify-content: center;
+    justify-content: left;
     border-color: #ffffff;
     
 }
-.inicio .contenedor .form {
-    display: flex;
-    flex-direction: column;
-}
 
 
-.inicio .contenedor .form #Enviar{
+
+.inicio .contenedor #Enviar{
     align-self: flex-end;
     justify-self: flex-end;
     width: 150px;
@@ -133,7 +140,7 @@
     border-radius: 34px;
     border-style: none;
 }
-.inicio .contenedor .form #Enviar:hover{
+.inicio .contenedor #Enviar:hover{
     opacity: 0.9;
     cursor: pointer;
 }
