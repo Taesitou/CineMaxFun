@@ -100,8 +100,6 @@
 .inicio{
     color: #ffc300;
     display: flex;
-    text-align: center;
-    align-items: center;
     flex-direction: column;
     margin: 10px;
     
@@ -113,26 +111,44 @@
 
 }
 
-.inicio #imagen{
-    max-width: 200px;
+.inicio #marca{
+    position: relative;
+    left: 430px;
+    text-align: center;
 }
 
-
-
-.inicio{
-    display: flex;
-    width: 400px;
-    border-radius: 20px;
-    justify-content: left;
-    border-color: #ffffff;
+.inicio #marca #imagen{
+    max-width: 100px;
+    position: relative;
     
 }
 
+.inicio .contenedor .form #mail, #contraseña{
+    margin: 5px;
+    width: 180px;
+    height: 20px;
+    border-radius: 34px;
+    border-style: none;   
+    text-indent: 30px;
+}
 
+.inicio .contenedor .form #e-mail{
+    display: inline;
+}
 
-.inicio .contenedor #Enviar{
-    align-self: flex-end;
-    justify-self: flex-end;
+.inicio .contenedor .form #imagen_mail{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    margin-top: 7px;
+    margin-left: 12px;
+    opacity: 0.5;
+
+}
+
+.inicio .contenedor .form #Enviar{
+    position: relative;
+    left: 200px;
     width: 150px;
     height: 30px;
     background: #FFC300;
@@ -140,7 +156,7 @@
     border-radius: 34px;
     border-style: none;
 }
-.inicio .contenedor #Enviar:hover{
+.inicio .contenedor .form #Enviar:hover{
     opacity: 0.9;
     cursor: pointer;
 }
