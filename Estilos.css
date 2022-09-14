@@ -99,6 +99,21 @@
     justify-content: space-around;
     height: 501px;
 }
+.publicidad #flecha-izquierda{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    left: 0;
+    margin-left: 5px;
+
+    
+}
+
+
 
 .publicidad #imagen01{
     position: absolute;
@@ -115,6 +130,20 @@
     opacity: 0.5;
     border-radius: 34px;
 }
+
+.publicidad #flecha-derecha{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    right: 0px;
+    margin-right: 5px;
+}
+
+
 
 
 /*Cartelera*/
@@ -159,7 +188,7 @@ h2 {
     left: 0;
     height: 60%;
     width: 100%;
-    background-image: url("/imgs/thor.jpg");
+    background-image: url("imgs/thor.jpg");
     background-size: 210px 340px;
     background-position: left top;
     transition: all 0.7s ease-in-out;
@@ -171,7 +200,7 @@ h2 {
     left: 0;
     height: 40%;
     width: 100%;
-    background-image: url("/imgs/thor.jpg");
+    background-image: url("imgs/thor.jpg");
     background-size: 210px 340px;
     background-position: left bottom;
     transition: all 0.7s ease-in-out;
