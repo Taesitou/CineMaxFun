@@ -100,6 +100,7 @@
     display: flex;
     flex-direction: row;
     align-content: center;
+    justify-content: space-between;
     height: 85vh;
     width: 100%;
     background-image: url(imgs/Desktop-1.svg);
@@ -115,8 +116,8 @@
 
 .inicio #marca{
     position: relative;
-    
-    justify-self: flex-end;
+    align-self: center;
+    text-align: center;
 }
 
 .inicio #marca #imagen{
