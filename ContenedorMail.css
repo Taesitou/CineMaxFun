@@ -162,47 +162,8 @@
     background-position:  10px center;
 }
 
-.inicio .contenedor .form #contraseña{
-    background-image: url(./imgs/lock-solid.svg);
-    background-size: 31px 28px;
-    background-repeat: no-repeat;
-    background-position:  10px center;
-}
 
-/* Check button*/
-.inicio .contenedor .form .boton_check{
-    display: flex;
-    align-content: center;
-    margin-left: 12px;
-}
-.inicio .contenedor .form .boton_check #label_check{
-    margin: 12px;
-    text-shadow: 0px 4px 3px rgba(255, 195, 0, 0.4);
-    align-self: center;
-}
-.inicio .contenedor .form .boton_check #mantener_logueado{
-    position:relative;
-    height: 29px;
-    width: 29px;
-    align-self: center;
-}
-/* Label Nuevo usuario*/
-.inicio .contenedor .form #Nuevo_usuario{
-    margin-left: 12px;
-}
 
-.inicio .contenedor .form #Nuevo_usuario #Registrar{
-    color: #FFC300;
-    font-weight: bold;
-}
-/*Label Cambiar contraseña*/
-.inicio .contenedor .form #Olvido_contraseña{
-    margin-left: 12px;
-}
-.inicio .contenedor .form #Olvido_contraseña #Olvido{
-    color: #FFC300;
-    font-weight: bold;
-}
 
 
 /* Enviar Button*/
