@@ -1,0 +1,91 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+.style .cabeza{
+    background-color: #ffc300;
+    height: 5vh;
+    border: #ffc300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.style .cabeza #name{
+    display: flex;
+    align-content: center;
+}
+
+.style .cabeza #name #nombre{
+    align-self: center;
+    padding-left: 14px;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+
+}
+
+.style .cabeza #name #oprimir_logo{
+    display: flex;
+}
+.style #Logo{
+    padding-left: 5px;
+    height: 28px;
+}
+.style .cabeza #buscar{
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 25px;
+}
+
+.style .cabeza #buscar #search{
+    position: absolute;
+    background: #D9D9D9;
+    width: 150px;
+    height: 25px;
+    border-radius: 22px;
+    border-style: none;
+    padding-left: 8px;
+    
+}
+
+
+.style .cabeza #buscar #buscador{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 0px;
+    border-radius: 0px 22px 22px 0px;
+    background: #A3A3A3;
+    opacity: 0.7;
+
+}
+.style .cabeza #buscar #buscador #lupita{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.6;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.style .cabeza #boton_inicio{
+    display: inline-block;
+}
+
+.style .cabeza #boton_inicio #login{
+    margin: 5px;
+    max-width: 35px;
+}

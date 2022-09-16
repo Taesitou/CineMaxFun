@@ -1,5 +1,5 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
 }
 
@@ -144,7 +144,7 @@
     flex-direction: column;
 }
 
-.inicio .contenedor .form #mail, #contraseña{
+.inicio .contenedor .form #nombre, #apellido ,#mail, #contraseña{
 
     width: 280px;
     height: 40px;
@@ -153,7 +153,13 @@
     text-indent: 50px;
 
 }
-
+.inicio .contenedor .form #cumpleaños{
+    width: 280px;
+    height: 40px;
+    border-radius: 34px;
+    border-style: none; 
+    text-indent: 24px; 
+}
 /* E-mail*/
 .inicio .contenedor .form #mail{
     background-image: url(./imgs/Imagen_mail.svg);
@@ -169,32 +175,6 @@
     background-position:  10px center;
 }
 
-/* Check button*/
-.inicio .contenedor .form .boton_check{
-    display: flex;
-    align-content: center;
-    margin-left: 12px;
-}
-.inicio .contenedor .form .boton_check #label_check{
-    margin: 12px;
-    text-shadow: 0px 4px 3px rgba(255, 195, 0, 0.4);
-    align-self: center;
-}
-.inicio .contenedor .form .boton_check #mantener_logueado{
-    position:relative;
-    height: 29px;
-    width: 29px;
-    align-self: center;
-}
-/* Label Nuevo usuario*/
-.inicio .contenedor .form #Nuevo_usuario{
-    margin-left: 12px;
-}
-
-.inicio .contenedor .form #Nuevo_usuario #Registrar{
-    color: #FFC300;
-    font-weight: bold;
-}
 
 /* Enviar Button*/
 .inicio .contenedor .form #Enviar{
@@ -220,7 +200,7 @@
 
 #footer {
     height: 10vh;
-    background-color: #ffc300;
+    background-color: #FFC300;
 }
 
 .seguir_redes{
