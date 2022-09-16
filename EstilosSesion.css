@@ -30,8 +30,11 @@
 
 }
 
+.style .cabeza #name #oprimir_logo{
+    display: flex;
+}
 .style #Logo{
-    margin-left: 10px;
+    padding-left: 5px;
     height: 28px;
 }
 .style .cabeza #buscar{
