@@ -262,7 +262,7 @@ h2 {
     transition: all 0.7s ease;
   }
   
-.formulario1  .card .views {
+.formulario1  .card .year {
     position: absolute;
     left: 10px;
     top: 175px;
@@ -293,7 +293,7 @@ h2 {
     transform: rotate(0deg);
   }
   
-.formulario1 .card:hover .views,
+.formulario1 .card:hover .year,
 .formulario1  .card:hover .catagory {
     transform: translate(0);
   }
@@ -301,11 +301,11 @@ h2 {
 /* Redes Sociales*/
 
 #footer {
-    background-image: url(https://i.pinimg.com/originals/0c/bf/2f/0cbf2f5c3fb37d033c0bc791ae196dbb.gif)
+    background-color: #ffc300;
 }
 
 .seguir_redes{
-    color: #ffc300;
+    color: black;
     margin-left: 5px;
     text-align: left;
 
@@ -324,17 +324,16 @@ h2 {
     font-size: 26px;
     color: #fff;
     border-radius: 50%;
-    outline: 2px solid  #fff;
-    transition-property: outline-offset, outline-color, background-color;
+    outline: 2px solid  black; 
     transition-duration: .30s;
     margin: 5px;
+    background-color: #000;
 }
+
 .iconos:hover {
     outline-offset: 4px;
 }
-.iconos:hover i{
-    animation: shake .30s ;
-}
+
 .icon-instagram:hover {
     background-image:
     radial-gradient(circle at 30% 107%,
