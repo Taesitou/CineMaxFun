@@ -2,13 +2,11 @@
     font-family: 'Archivo', sans-serif;
     margin: 0;
 }
-.body{
-    background-color: rgb(50, 50, 51);
-}
 
+/* Header */
 .style .cabeza{
     background-color: #ffc300;
-    height: 40px;
+    height: 5vh;
     border: #ffc300;
     display: flex;
     flex-direction: row;
@@ -22,24 +20,18 @@
 }
 
 .style .cabeza #name #nombre{
+    align-self: center;
     padding-left: 14px;
     font-size: 23px;
     letter-spacing: 1px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    background: url(https://img.freepik.com/vector-premium/fondo-rayas-diagonales-negras-amarillas-textura-grunge-advertir-precaucion_131186-1501.jpg?w=740);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: text 12s linear infinite;
+    color: black;
+    text-decoration: none;
 
 }
-@keyframes text {
-    from { background-position: 0% 50%; }
-    to { background-position: 100% 100%; }
-}
+
 .style #Logo{
-    margin-left: 14px;
+    margin-left: 10px;
     height: 28px;
 }
 .style .cabeza #buscar{
@@ -95,14 +87,19 @@
     max-width: 35px;
 }
 
-
+/* Toda la seccion del medio*/
 
 .inicio{
     color: #ffc300;
     display: flex;
-    flex-direction: column;
-    margin: 10px;
-    
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    height: 85vh;
+    width: 100%;
+    background-image: url(imgs/Desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .inicio #ContInicio{
@@ -111,57 +108,115 @@
 
 }
 
+/* Logo y Marca */
 .inicio #marca{
     position: relative;
-    left: 430px;
+    align-self: center;
     text-align: center;
+    color: black;
+    margin-right: 350px;
+    margin-bottom: 210px;
+    font-size: 20px;
+
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25)  ;
 }
 
 .inicio #marca #imagen{
-    max-width: 100px;
+    max-width: 120px;
     position: relative;
     
 }
 
+
+/* Contenedor Login*/
+.inicio .contenedor {
+    position: relative;
+    align-self: center; 
+    margin-left: 70px;
+
+}
+/* Contenedor del formulario */
+.inicio .contenedor .form{
+    display: flex;
+    flex-direction: column;
+}
+
 .inicio .contenedor .form #mail, #contraseña{
-    margin: 5px;
-    width: 180px;
-    height: 20px;
+
+    width: 280px;
+    height: 40px;
     border-radius: 34px;
     border-style: none;   
-    text-indent: 30px;
+    text-indent: 50px;
+
 }
 
-.inicio .contenedor .form #e-mail{
-    display: inline;
+/* E-mail*/
+.inicio .contenedor .form #mail{
+    background-image: url(./imgs/Imagen_mail.svg);
+    background-size: 31px 28px;
+    background-repeat: no-repeat;
+    background-position:  10px center;
 }
 
-.inicio .contenedor .form #imagen_mail{
-    position: absolute;
-    height: 18px;
-    width: 18px;
-    margin-top: 7px;
+.inicio .contenedor .form #contraseña{
+    background-image: url(./imgs/lock-solid.svg);
+    background-size: 31px 28px;
+    background-repeat: no-repeat;
+    background-position:  10px center;
+}
+
+/* Check button*/
+.inicio .contenedor .form .boton_check{
+    display: flex;
+    align-content: center;
     margin-left: 12px;
-    opacity: 0.5;
-
+}
+.inicio .contenedor .form .boton_check #label_check{
+    margin: 12px;
+    text-shadow: 0px 4px 3px rgba(255, 195, 0, 0.4);
+    align-self: center;
+}
+.inicio .contenedor .form .boton_check #mantener_logueado{
+    position:relative;
+    height: 29px;
+    width: 29px;
+    align-self: center;
+}
+/* Label Nuevo usuario*/
+.inicio .contenedor .form #Nuevo_usuario{
+    margin-left: 12px;
 }
 
+.inicio .contenedor .form #Nuevo_usuario #Registrar{
+    color: #FFC300;
+    font-weight: bold;
+}
+
+/* Enviar Button*/
 .inicio .contenedor .form #Enviar{
     position: relative;
-    left: 200px;
-    width: 150px;
-    height: 30px;
+    top: 115px;
+    margin-left: 380px;
+    width: 280px;
+    height: 40px;
     background: #FFC300;
     box-shadow: 0px 8px 8px 2px rgba(255, 195, 0, 0.4);
     border-radius: 34px;
     border-style: none;
+    font-size: 22px;
+    
 }
 .inicio .contenedor .form #Enviar:hover{
     opacity: 0.9;
     cursor: pointer;
 }
 
+
+/* Footer*/
+
 #footer {
+    height: 10vh;
     background-image: url(https://i.pinimg.com/originals/0c/bf/2f/0cbf2f5c3fb37d033c0bc791ae196dbb.gif)
 }
 
@@ -177,3 +232,54 @@
     justify-content: space-evenly;
     
 } 
+
+
+/*Responsive*/
+@media screen and (max-width:1000px) {
+    
+    .style .cabeza #name #nombre{
+        display: none;
+    }
+    .style #oprimir_logo{
+        height: 35px;
+    }
+    .style #Logo{
+        margin: auto;
+        height: 35px;
+        padding-left: 2px;
+        
+    }
+    .inicio{
+        justify-content: center;
+    }
+    .inicio #marca{
+        display: none;
+    }
+    .inicio .contenedor{
+        margin: auto;
+    }
+    .inicio .contenedor .form{
+        text-align: center;
+        
+        
+    }
+    .inicio .contenedor .form #mail, #contraseña{
+        width: 200px;
+        margin: auto;
+    }
+    .inicio .contenedor .form .boton_check{
+        margin: auto;
+    }
+    .inicio .contenedor .form #Enviar{
+        top: 10px;
+        margin-left: 0px;
+        width: 240px;
+    }
+    #footer{
+        text-align: center;
+    }
+    #Redes{
+        text-align: center;
+    }
+
+}
