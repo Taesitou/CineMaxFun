@@ -9,13 +9,12 @@
 }
 .style{
     position: sticky;
-    top: 0;
     z-index: 150;
+    top: 0;
 }
-
 .style .cabeza{
     background-color: #ffc300;
-    height: 40px;
+    height: 5vh;
     border: #ffc300;
     display: flex;
     flex-direction: row;
@@ -23,22 +22,28 @@
     align-items: center;
 
 }
+.style .cabeza #name{
+    display: flex;
+    align-content: center;
+}
 
 .style .cabeza #name #nombre{
-    font-size: 20px;
+    align-self: center;
+    padding-left: 14px;
+    font-size: 23px;
     letter-spacing: 1px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    background: url(https://img.freepik.com/vector-premium/fondo-rayas-diagonales-negras-amarillas-textura-grunge-advertir-precaucion_131186-1501.jpg?w=740);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: text 12s linear infinite;
+    color: black;
+    text-decoration: none;
 
 }
-@keyframes text {
-    from { background-position: 0% 50%; }
-    to { background-position: 100% 100%; }
+
+.style .cabeza #name #oprimir_logo{
+    display: flex;
+}
+.style #Logo{
+    padding-left: 5px;
+    height: 28px;
 }
 .style .cabeza #buscar{
     display: block;
@@ -82,6 +87,8 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+
+
 .style .cabeza #boton_inicio{
     display: inline-block;
 }
@@ -90,7 +97,6 @@
     margin: 5px;
     max-width: 35px;
 }
-
 
 
 /*caja de cartelera/publicidad*/
@@ -111,7 +117,8 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #5cb85c;
+    background: grey;
+    opacity: 0.5;
     left: 0;
     margin-left: 5px;
 
@@ -143,7 +150,8 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #5cb85c;
+    background: grey;
+    opacity: 0.5;
     right: 0px;
     margin-right: 5px;
 }
