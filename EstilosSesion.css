@@ -246,7 +246,6 @@
     outline: 2px solid  #fff;
     transition-property: outline-offset, outline-color, background-color;
     transition-duration: .30s;
-    margin: 2px;
 }
 .iconos:hover {
     outline-offset: 4px;
@@ -319,8 +318,12 @@
     #footer{
         text-align: center;
     }
-    #Redes{
+    .seguir_redes{
         text-align: center;
     }
+    .redes_sociales{
+        justify-content: center;
+    }
+
 
 }
