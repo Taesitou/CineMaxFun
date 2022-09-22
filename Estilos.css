@@ -1,21 +1,19 @@
 *{
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
 }
 
 .body{
-    background-image: url(https://img.freepik.com/fotos-premium/diseno-fondo-arte-corte-papel-negro-abstracto-plantilla-sitio-web-o-plantilla-presentacion-fondo-negro_41204-1518.jpg
-    );
+    background-color: rgb(26, 25, 25);
 }
 .style{
     position: sticky;
-    top: 0;
     z-index: 150;
+    top: 0;
 }
-
 .style .cabeza{
     background-color: #ffc300;
-    height: 40px;
+    height: 5vh;
     border: #ffc300;
     display: flex;
     flex-direction: row;
@@ -23,22 +21,29 @@
     align-items: center;
 
 }
+.style .cabeza #name{
+    display: flex;
+    align-content: center;
+}
 
 .style .cabeza #name #nombre{
-    font-size: 20px;
+    align-self: center;
+    padding-left: 14px;
+    font-size: 23px;
     letter-spacing: 1px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    background: url(https://img.freepik.com/vector-premium/fondo-rayas-diagonales-negras-amarillas-textura-grunge-advertir-precaucion_131186-1501.jpg?w=740);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: text 12s linear infinite;
+    color: black;
+    text-decoration: none;
+
 
 }
-@keyframes text {
-    from { background-position: 0% 50%; }
-    to { background-position: 100% 100%; }
+
+.style .cabeza #name #oprimir_logo{
+    display: flex;
+}
+.style #Logo{
+    padding-left: 5px;
+    height: 28px;
 }
 .style .cabeza #buscar{
     display: block;
@@ -82,6 +87,8 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+
+
 .style .cabeza #boton_inicio{
     display: inline-block;
 }
@@ -90,7 +97,6 @@
     margin: 5px;
     max-width: 35px;
 }
-
 
 
 /*caja de cartelera/publicidad*/
@@ -111,14 +117,13 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #5cb85c;
+    background: grey;
+    opacity: 0.5;
     left: 0;
     margin-left: 5px;
 
     
 }
-
-
 
 .publicidad #imagen01{
     position: absolute;
@@ -143,7 +148,8 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #5cb85c;
+    background: grey;
+    opacity: 0.5;
     right: 0px;
     margin-right: 5px;
 }
@@ -254,7 +260,7 @@ h2 {
     transition: all 0.7s ease;
   }
   
-.formulario1  .card .views {
+.formulario1  .card .year {
     position: absolute;
     left: 10px;
     top: 175px;
@@ -285,7 +291,7 @@ h2 {
     transform: rotate(0deg);
   }
   
-.formulario1 .card:hover .views,
+.formulario1 .card:hover .year,
 .formulario1  .card:hover .catagory {
     transform: translate(0);
   }
@@ -293,11 +299,11 @@ h2 {
 /* Redes Sociales*/
 
 #footer {
-    background-image: url(https://i.pinimg.com/originals/0c/bf/2f/0cbf2f5c3fb37d033c0bc791ae196dbb.gif)
+    background-color: #ffc300;
 }
 
 .seguir_redes{
-    color: #ffc300;
+    color: black;
     margin-left: 5px;
     text-align: left;
 
@@ -316,17 +322,16 @@ h2 {
     font-size: 26px;
     color: #fff;
     border-radius: 50%;
-    outline: 2px solid  #fff;
-    transition-property: outline-offset, outline-color, background-color;
+    outline: 2px solid  black; 
     transition-duration: .30s;
     margin: 5px;
+    background-color: #000;
 }
+
 .iconos:hover {
     outline-offset: 4px;
 }
-.iconos:hover i{
-    animation: shake .30s ;
-}
+
 .icon-instagram:hover {
     background-image:
     radial-gradient(circle at 30% 107%,
