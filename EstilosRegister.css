@@ -144,7 +144,7 @@
     flex-direction: column;
 }
 
-.inicio .contenedor .form #nombre, #apellido ,#mail, #contraseña{
+.inicio .contenedor .form #nombre, #apellido ,#mail, #contraseña, #re-contraseña{
 
     width: 280px;
     height: 40px;
@@ -168,7 +168,7 @@
     background-position:  10px center;
 }
 
-.inicio .contenedor .form #contraseña{
+.inicio .contenedor .form #contraseña, #re-contraseña{
     background-image: url(./imgs/lock-solid.svg);
     background-size: 31px 28px;
     background-repeat: no-repeat;
@@ -176,10 +176,12 @@
 }
 
 
+
+
 /* Enviar Button*/
 .inicio .contenedor .form #Enviar{
     position: relative;
-    top: 115px;
+    top: 50px;
     margin-left: 380px;
     width: 280px;
     height: 40px;
