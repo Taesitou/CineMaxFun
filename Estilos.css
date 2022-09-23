@@ -351,3 +351,53 @@ h2 {
     background-color: rgb(255, 41, 41);
     outline-color: rgb(255, 41, 41);
 }
+/*Responsive*/
+@media screen and (max-width:1000px) {
+    
+    .style .cabeza #name #nombre{
+        display: none;
+    }
+    .style #oprimir_logo{
+        height: 35px;
+    }
+    .style #Logo{
+        margin: auto;
+        height: 35px;
+        padding-left: 2px;
+        
+    }
+    .inicio{
+        justify-content: center;
+    }
+    .inicio #marca{
+        display: none;
+    }
+    .inicio .contenedor{
+        margin: auto;
+    }
+    .inicio .contenedor .form{
+        text-align: center;
+        
+        
+    }
+    .inicio .contenedor .form #mail, #contraseña{
+        width: 200px;
+        margin: auto;
+    }
+    .inicio .contenedor .form .boton_check{
+        margin: auto;
+    }
+    .inicio .contenedor .form #Enviar{
+        top: 10px;
+        margin-left: 0px;
+        width: 240px;
+    }
+    #footer{
+        text-align: center;
+    }
+    .seguir_redes{
+        text-align: center;
+    }
+    .redes_sociales{
+        justify-content: center;
+    }
