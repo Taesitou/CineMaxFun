@@ -104,7 +104,7 @@
     position: relative;
     align-content: center;
     justify-content: center;
-    height: 85vh;
+    height: 84vh;
 }
 .pelicula .peli {
     display: flex;
@@ -155,7 +155,7 @@
     flex-direction: column;
     background: rgb(83, 81, 81);
     position: absolute;
-    height: 450px;
+    height: 310px;
     width: 350px;
     top: 15px;
     left: 250px
@@ -289,15 +289,15 @@
 .pelicula .trailer {
     display: flex;
     position: absolute;
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 250px;
     justify-content: center;
-    bottom: -200px;
-    left: 215px;
+    bottom: -10px;
+    left: 270px;
 }
 
 #footer {
-    height: 10vh;
+    height: 11vh;
     background-color: #ffc300;
 }
 
