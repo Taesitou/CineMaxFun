@@ -264,6 +264,18 @@ h2 {
     transition: all 0.3s linear;
     overflow: hidden;
   }
+  .formulario1 .card1 {
+    display: flex;
+    width: 100%;
+    width: 250px;
+    height: 355px;
+    margin: 12px;
+    position: relative;
+    background-size: cover;
+    background-position: top;
+    transition: all 0.3s linear;
+    overflow: hidden;
+  }
 
   .formulario1 .card:nth-of-type(1) {
     background-image: url(./imgs/topgun_maverik.jpg)
@@ -278,6 +290,12 @@ h2 {
     background-image: url(./imgs/Thor_amor_y_trueno.jpg);
   }
   .formulario1 .card:nth-of-type(5) {
+    background-image: url(./imgs/Uncharted.jpg);
+  }
+  .formulario1 .card1:nth-of-type(1) {
+    background-image: url(./imgs/estreno_avatar.jpeg);
+  }
+  .formulario1 .card1:nth-of-type(2) {
     background-image: url(./imgs/Uncharted.jpg);
   }
 
@@ -344,6 +362,70 @@ h2 {
   .card-content .btn:hover i {
     transform: translateX(5px);
   }
+  .formulario1 .card-content1 {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    opacity: 90%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: all 0.3s linear;
+  }
+
+  .card-content1 h2 {
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .card-content1 .tags1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+  }
+  .card-content1 .tags1 .fantasia1 {
+    background-color: #be0027;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+  }
+.card-content1 .tags1 .accion1 {
+    background-color: #1da1f2;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+  .card-content1 .btn1 {
+    color: #be0027;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+
+  .card1:hover {
+    box-shadow: 10px 10px 30px rgba(243, 243, 243, 0.3);
+  }
+
+  .card1:hover .card-content1 {
+    transform: translateY(0);
+  }
+
+  .card-content1 .btn1:hover i {
+    transform: translateX(5px);
+  }
+
 
 /* Redes Sociales*/
 
