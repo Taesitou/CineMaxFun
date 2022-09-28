@@ -253,118 +253,96 @@ h2 {
     flex-direction: row;
 }
 .formulario1 .card {
+    display: flex;
+    width: 100%;
+    width: 250px;
+    height: 355px;
+    margin: 12px;
     position: relative;
+    background-size: cover;
+    background-position: top;
+    transition: all 0.3s linear;
     overflow: hidden;
-    width: 220px;
-    height: 350px;
-    margin: 50px auto;
-    background: #2a264f;
-    border: 5px solid #1a163f;
-    border-radius: 3px;
-    box-shadow: 0 0 10px #2a264f;
   }
-  
-.formulario1 .card .img1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 60%;
+
+  .formulario1 .card:nth-of-type(1) {
+    background-image: url(./imgs/topgun_maverik.jpg)
+  }
+  .formulario1 .card:nth-of-type(2) {
+    background-image: url(./imgs/estreno_avatar.jpeg);
+  }
+  .formulario1 .card:nth-of-type(3) {
+    background-image: url(./imgs/Minions_nace_un_villano.jpg);
+  }
+  .formulario1 .card:nth-of-type(4) {
+    background-image: url(./imgs/Thor_amor_y_trueno.jpg);
+  }
+  .formulario1 .card:nth-of-type(5) {
+    background-image: url(./imgs/Uncharted.jpg);
+  }
+
+  .formulario1 .card-content {
     width: 100%;
-    background-image: url("imgs/thor.jpg");
-    background-size: 210px 340px;
-    background-position: left top;
-    transition: all 0.7s ease-in-out;
-  }
-  
-.formulario1 .card .img2 {
+    padding: 15px 20px;
+    background-color: #ffffff;
+    opacity: 90%;
+    text-align: center;
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 40%;
-    width: 100%;
-    background-image: url("imgs/thor.jpg");
-    background-size: 210px 340px;
-    background-position: left bottom;
-    transition: all 0.7s ease-in-out;
+    transform: translateY(100%);
+    transition: all 0.3s linear;
   }
-  
-.formulario1  .card .title {
-    height: 22%;
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 700;
-    color: #FFFC;
-    padding: 15px 10px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    box-shadow: 0 -95px 28px -25px #000 inset;
-  }
-  
-.formulario1 .card .text {
-    position: absolute;
-    bottom: 80px;
-    height: 120px;
-    padding: 15px 10px;
-    text-align: center;
-    font-size: 17px;
-    color: #fff;
-    transform: rotate(90deg);
-    transform-origin: 0 100px;
-    opacity: 0;
-    transition: all 0.7s ease;
-  }
-  
-.formulario1  .card .catagory {
-    position: absolute;
-    left: 10px;
-    top: 140px;
-    padding: 3px 10px;
-    font-size: 15px;
+
+  .card-content h2 {
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
-    background: #2a264f;
-    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .card-content .tags {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+  }
+  .card-content .tags .fantasia {
+    background-color: #be0027;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 2px;
     border-radius: 5px;
-    transform: translate(-160px, 0);
-    transition: all 0.7s ease;
   }
-  
-.formulario1  .card .year {
-    position: absolute;
-    left: 10px;
-    top: 175px;
-    padding: 3px 10px;
-    font-size: 15px;
-    font-weight: 700;
-    text-align: center;
-    background: #8b2463;
-    color: #fff;
+.card-content .tags .accion {
+    background-color: #1da1f2;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 2px;
     border-radius: 5px;
-    transform: translate(-160px, 0);
-    transition: all 0.7s ease 0.15s;
+}
+
+  .card-content .btn {
+    color: #be0027;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
   }
-  
-.formulario1  .card:hover .img1 {
-    transform: rotate(10deg) scale(1.3) translate(20px, 0);
-    transform-origin: 300px 300px;
-    opacity: 0.5;
+
+  .card:hover {
+    box-shadow: 10px 10px 30px rgba(243, 243, 243, 0.3);
   }
-  
-.formulario1  .card:hover .img2 {
-    transform: rotate(90deg) translate(0px, 150px);
-    transform-origin: -20px 200px;
+
+  .card:hover .card-content {
+    transform: translateY(0);
   }
-  
-.formulario1  .card:hover .text {
-    opacity: 0.8;
-    transform: rotate(0deg);
-  }
-  
-.formulario1 .card:hover .year,
-.formulario1  .card:hover .catagory {
-    transform: translate(0);
+
+  .card-content .btn:hover i {
+    transform: translateX(5px);
   }
 
 /* Redes Sociales*/
