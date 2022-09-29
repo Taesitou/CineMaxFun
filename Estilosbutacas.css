@@ -103,12 +103,115 @@ body{
     
 }
 .Rectangulo{
+    display: flex;
     position: relative;
     background: #ffc300;
     height: 75vh;
     width: 1450px;
     border-radius: 38px;
     align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;
+    box-shadow: -10px 10px 13px rgba(255, 195, 0, 0.45);
+    
+}
+
+#habitacion_finalizar{
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+    
+
+}
+
+#habitacion{
+    display: flex;
+    box-sizing: border-box;
+    border: 6px solid black;
+    border-radius: 25px;
+    width: 50%;
+    height: 88%;
+    flex-direction: column;
+}
+
+#pantalla{
+    margin-top: 2%;
+    align-self: center;
+    background: #000;
+    width: 90%;
+    height: 5%;
+}
+
+.sillon{
+    height: 35px;
+    width: 35px;
+}
+.sillon:hover{
+    cursor: pointer;
+    fill: grey;
+}
+
+#butacas_izq{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#finalizar{
+   width: 30%;
+   height: 88%;
+}
+#finalizar_titulo{
+    align-self: center;
+    border: 1px solid black;
+    background: #ffc300;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.compra_entrada{
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+#compra_entrada_ult{
+    border-radius: 0px 0px 25px 25px;
+}
+
+#estados{
+    justify-self: flex-start;
+    height: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cajas_estados{
+    display: flex;
+    align-items: center;
+}
+
+#color_libre{
+    background: #fff;
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+}
+
+#color_ocupado{
+    background: red;
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+}
+
+
+#color_seleccionado{
+    background: #000;
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
 }
 
 #footer {
