@@ -455,10 +455,10 @@ h2 {
     font-size: 26px;
     color: #fff;
     border-radius: 50%;
-    outline: 2px solid  black; 
+    outline: 2px solid  #ffc300; 
     transition-duration: .30s;
     margin: 5px;
-    background-color: #000;
+    background-color: #ffc300;
 }
 
 .iconos:hover {
