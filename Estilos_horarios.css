@@ -302,7 +302,7 @@
 }
 
 .seguir_redes{
-    color: #fff;
+    color: black;
     margin-left: 5px;
     text-align: left;
 
@@ -311,6 +311,7 @@
     display: flex;
     column-gap: 20px;
     padding-top: 10px;
+    margin-left: 10px;
 }
 .iconos{
     width: 35px;
@@ -322,7 +323,7 @@
     font-size: 26px;
     color: #fff;
     border-radius: 50%;
-    outline: 2px solid  #fff;
+    outline: 2px solid  #ffc300;
     transition-duration: .30s;
 }
 .iconos:hover {
