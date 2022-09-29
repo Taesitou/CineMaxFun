@@ -251,10 +251,11 @@
     justify-content: center;
     text-decoration: none;
     font-size: 26px;
-    color: #fff;
+    color: #ffc300;
     border-radius: 50%;
-    outline: 2px solid  #fff;
+    outline: 2px solid  #ffc300;
     transition-duration: .30s;
+    padding-left: 10px;
 }
 .iconos:hover {
     outline-offset: 4px;
