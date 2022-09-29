@@ -304,6 +304,7 @@ h2 {
   }
 
   .formulario1 .card-content {
+    display: flex;
     width: 100%;
     padding: 15px 20px;
     background-color: #ffffff;
@@ -317,6 +318,7 @@ h2 {
   }
 
   .card-content h3 {
+    display: flex;
     margin-bottom: 5px;
     color: #000000;
     font-size: 18px;
@@ -367,11 +369,12 @@ h2 {
     transform: translateX(5px);
   }
   .formulario1 .card-content1 {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 15px 20px;
     background-color: #ffffff;
     opacity: 90%;
-    text-align: center;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -380,12 +383,12 @@ h2 {
   }
 
   .card-content1 h3 {
+    display: flex;
     margin-bottom: 5px;
     color: #000000;
     font-size: 18px;
     font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
+    justify-content: center; 
   }
 
   .card-content1 .tags1 {
@@ -395,6 +398,7 @@ h2 {
     justify-content: center;
   }
   .card-content1 .tags1 .fantasia1 {
+    display: flex;
     background-color: #be0027;
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -402,6 +406,7 @@ h2 {
     border-radius: 5px;
   }
 .card-content1 .tags1 .accion1 {
+    display: flex;
     background-color: #1da1f2;
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -410,10 +415,11 @@ h2 {
 }
 
   .card-content1 .btn1 {
+    display: flex;
     color: #be0027;
     font-size: 18px;
     font-weight: 400;
-    text-align: center;
+    justify-content: center;
     text-transform: capitalize;
     text-decoration: none;
   }
@@ -536,5 +542,24 @@ h2 {
     }
     .redes_sociales{
         justify-content: center;
+    }
+
+    .formulario1 .card {
+      height: 250px;
+      width: 400px;
+      
+    }
+    
+    .formulario1 .card-content{
+      height: 40%;
+    }
+    
+    .formulario1 .card1 {
+      width: 40%;
+      height: 250px;
+    }
+
+    .formulario1 .card-content1 {
+      height: 35%;
     }
 }
