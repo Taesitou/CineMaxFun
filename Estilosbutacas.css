@@ -185,6 +185,13 @@ body{
 #compra_entrada_ult{
     border-radius: 0px 0px 25px 25px;
 }
+
+
+#estados_botones{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Contenedor de los estados de butacas */
 
 #estados{
@@ -223,6 +230,13 @@ body{
 }
 
 /* Botones atras y continuar */
+#botones{
+    width: 30%;
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
 
 
 #footer {
