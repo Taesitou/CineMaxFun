@@ -102,6 +102,8 @@ body{
     
     
 }
+
+ /* Contenedor del medio amarillo */
 .Rectangulo{
     display: flex;
     position: relative;
@@ -119,6 +121,7 @@ body{
     
 }
 
+/* Contenedor de la habitacion y el finalice su compra */
 #habitacion_finalizar{
     display: flex;
     justify-content: space-between;
@@ -127,6 +130,7 @@ body{
 
 }
 
+/* Habitacion de pantalla y butacas */
 #habitacion{
     display: flex;
     box-sizing: border-box;
@@ -159,6 +163,9 @@ body{
     flex-wrap: wrap;
 }
 
+
+/* Finalizar su compra */
+
 #finalizar{
    width: 30%;
    height: 88%;
@@ -178,6 +185,7 @@ body{
 #compra_entrada_ult{
     border-radius: 0px 0px 25px 25px;
 }
+/* Contenedor de los estados de butacas */
 
 #estados{
     justify-self: flex-start;
@@ -213,6 +221,9 @@ body{
     width: 35px;
     border-radius: 10px;
 }
+
+/* Botones atras y continuar */
+
 
 #footer {
     background-color: #ffc300;
