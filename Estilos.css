@@ -258,6 +258,7 @@ h2 {
 }
 .formulario1 .card {
     display: flex;
+    flex-direction: column;
     width: 100%;
     width: 350px;
     height: 355px;
@@ -270,6 +271,7 @@ h2 {
   }
   .formulario1 .card1 {
     display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 250px;
     height: 355px;
@@ -305,6 +307,7 @@ h2 {
 
   .formulario1 .card-content {
     display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 15px 20px;
     background-color: #ffffff;
@@ -323,7 +326,7 @@ h2 {
     color: #000000;
     font-size: 18px;
     font-weight: 700;
-    text-align: center;
+    justify-content: center;
     text-transform: uppercase;
   }
 
@@ -384,6 +387,7 @@ h2 {
 
   .card-content1 h3 {
     display: flex;
+    position: relative;
     margin-bottom: 5px;
     color: #000000;
     font-size: 18px;
@@ -393,7 +397,6 @@ h2 {
 
   .card-content1 .tags1 {
     display: flex;
-    flex-direction: row;
     column-gap: 10px;
     justify-content: center;
   }
