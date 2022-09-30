@@ -142,19 +142,21 @@
 .inicio .contenedor .form{
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .inicio .contenedor .form #nombre, #apellido ,#mail, #contraseña, #re-contraseña{
 
-    width: 280px;
+    width: 43%;
     height: 40px;
     border-radius: 34px;
     border-style: none;   
     text-indent: 50px;
+    display: flex;
 
 }
 .inicio .contenedor .form #cumpleaños{
-    width: 280px;
+    width: 43%;
     height: 40px;
     border-radius: 34px;
     border-style: none; 
@@ -183,7 +185,8 @@
 /* Enviar Button*/
 .inicio .contenedor .form #Enviar{
     position: relative;
-    top: 50px;
+    display: flex;
+    top: 20px;
     margin-left: 380px;
     width: 280px;
     height: 40px;
@@ -192,6 +195,7 @@
     border-radius: 34px;
     border-style: none;
     font-size: 22px;
+    justify-content: center;
     
 }
 .inicio .contenedor .form #Enviar:hover{
@@ -281,20 +285,29 @@
         margin: auto;
     }
     .inicio .contenedor .form{
-        text-align: center;
+        text-align: center;       
     }
 
-    .inicio .contenedor .form #mail, #contraseña{
-        width: 200px;
+    .inicio .contenedor .form #mail, #contraseña, #re-contraseña{
+
         margin: auto;
     }
     .inicio .contenedor .form .boton_check{
         margin: auto;
     }
+
+    .inicio .contenedor .form #nombre, #apellido, #cumpleaños {
+
+        margin: auto;
+    }
+
     .inicio .contenedor .form #Enviar{
         top: 10px;
-        margin-left: 0px;
         width: 240px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        
     }
     #footer{
         text-align: center;

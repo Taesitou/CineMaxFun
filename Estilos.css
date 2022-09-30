@@ -340,8 +340,29 @@ h2 {
     column-gap: 10px;
     justify-content: center;
   }
-  .card-content .tags .fantasia {
+  .card-content .tags .aventura {
     background-color: #be0027;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  .card-content .tags .comedia {
+    background-color: #ffaa2b;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  .card-content .tags .ficcion {
+    background-color: #870199;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  .card-content1 .tags1 .ficcion1 {
+    background-color: #870199;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     padding: 2px;
@@ -404,7 +425,7 @@ h2 {
     column-gap: 10px;
     justify-content: center;
   }
-  .card-content1 .tags1 .fantasia1 {
+  .card-content1 .tags1 .aventura1 {
     display: flex;
     background-color: #be0027;
     font-family: 'Times New Roman', Times, serif;

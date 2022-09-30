@@ -242,6 +242,7 @@
 .redes_sociales {
     display: flex;
     column-gap: 20px;
+    padding-left: 10px;
 }
 .iconos{
     width: 35px;
@@ -255,7 +256,6 @@
     border-radius: 50%;
     outline: 2px solid  #ffc300;
     transition-duration: .30s;
-    padding-left: 10px;
 }
 .iconos:hover {
     outline-offset: 4px;
