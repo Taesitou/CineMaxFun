@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-.body{
+body{
     background-color: rgb(26, 25, 25);
 }
 .style{
@@ -97,3 +97,49 @@
     margin: 5px;
     max-width: 35px;
 }
+
+
+#titulo{
+    color: #fff;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 15%;
+    font-size: 50px;
+}
+
+#divisor_1{
+    background: #fff;
+}
+
+#contenedor{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-between ;
+}
+
+#divisor_2{
+    border-left: 2px solid #fff;
+    height: 450px;
+}
+
+#datos{
+    width: 50%;
+    padding: 2%;
+}
+#olvide_contraseña{
+   font-size: 36px;
+}
+
+#boton_contraseña{
+    border-radius: 25px;
+    background: #ffc300;
+    height: 50%;
+    width: 33%;
+    cursor: pointer;
+}
+
+
+
