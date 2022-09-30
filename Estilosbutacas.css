@@ -1,6 +1,7 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
+   
     
 }
 body{
@@ -143,11 +144,17 @@ body{
 
 #pantalla{
     margin-top: 2%;
+    margin-bottom: 2%;
     align-self: center;
     background: #000;
     width: 90%;
-    height: 5%;
+    height: 10%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .sillon{
     height: 35px;
@@ -158,9 +165,23 @@ body{
     fill: grey;
 }
 
+#butacas{
+    display: flex;
+    justify-content: space-around;
+    height: 90%;
+}
+
 #butacas_izq{
     display: flex;
     flex-wrap: wrap;
+    max-width: 215px;
+    max-height: max-content;
+}
+#butacas_der{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 215px;
+    max-height: max-content;
 }
 
 
@@ -175,28 +196,33 @@ body{
     border: 1px solid black;
     background: #ffc300;
     border-radius: 25px 25px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .compra_entrada{
     background: #000;
     color: #fff;
     text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #compra_entrada_ult{
     border-radius: 0px 0px 25px 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
 #estados_botones{
     display: flex;
     justify-content: space-between;
+    height: 5%;
+
 }
 
 /* Contenedor de los estados de butacas */
 
 #estados{
     justify-self: flex-start;
-    height: 5%;
+    height: 100%;
     width: 50%;
     display: flex;
     justify-content: space-around;
@@ -205,6 +231,7 @@ body{
 .cajas_estados{
     display: flex;
     align-items: center;
+    gap: 6px;
 }
 
 #color_libre{
@@ -232,10 +259,21 @@ body{
 /* Botones atras y continuar */
 #botones{
     width: 30%;
-    height: 5%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items:center;
+}
+#volver, #continuar{
+    width: 40%;
+    height: 100%;
+    border-radius: 25px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000;
+    cursor: pointer;
+}
+#continuar{
+    background: #ffc300;
 }
 
 
