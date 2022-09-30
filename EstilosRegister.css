@@ -159,6 +159,7 @@
     border-radius: 34px;
     border-style: none; 
     text-indent: 24px; 
+    display: flex;
 }
 /* E-mail*/
 .inicio .contenedor .form #mail{
@@ -173,6 +174,7 @@
     background-size: 31px 28px;
     background-repeat: no-repeat;
     background-position:  10px center;
+    display: flex;
 }
 
 
@@ -214,6 +216,7 @@
 .redes_sociales {
     display: flex;
     column-gap: 20px;
+    padding-left: 10px;
 }
 .iconos{
     width: 35px;
@@ -223,9 +226,9 @@
     justify-content: center;
     text-decoration: none;
     font-size: 26px;
-    color: #fff;
+    color: #ffc300;
     border-radius: 50%;
-    outline: 2px solid  #fff;
+    outline: 2px solid  #ffc300;
     transition-duration: .30s;
 }
 .iconos:hover {
@@ -279,9 +282,8 @@
     }
     .inicio .contenedor .form{
         text-align: center;
-        
-        
     }
+
     .inicio .contenedor .form #mail, #contraseña{
         width: 200px;
         margin: auto;
