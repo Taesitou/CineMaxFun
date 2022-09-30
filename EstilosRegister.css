@@ -147,7 +147,7 @@
 
 .inicio .contenedor .form #nombre, #apellido ,#mail, #contraseña, #re-contraseña{
 
-    width: 280px;
+    width: 43%;
     height: 40px;
     border-radius: 34px;
     border-style: none;   
@@ -156,7 +156,7 @@
 
 }
 .inicio .contenedor .form #cumpleaños{
-    width: 280px;
+    width: 43%;
     height: 40px;
     border-radius: 34px;
     border-style: none; 
@@ -195,6 +195,7 @@
     border-radius: 34px;
     border-style: none;
     font-size: 22px;
+    justify-content: center;
     
 }
 .inicio .contenedor .form #Enviar:hover{
@@ -288,7 +289,7 @@
     }
 
     .inicio .contenedor .form #mail, #contraseña, #re-contraseña{
-        width: 200px;
+
         margin: auto;
     }
     .inicio .contenedor .form .boton_check{
@@ -296,7 +297,7 @@
     }
 
     .inicio .contenedor .form #nombre, #apellido, #cumpleaños {
-        width: 200px;
+
         margin: auto;
     }
 
