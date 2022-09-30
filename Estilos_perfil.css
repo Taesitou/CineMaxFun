@@ -130,7 +130,9 @@ body{
     padding: 2%;
 }
 #olvide_contraseña{
-   font-size: 36px;
+    width: 50%;
+    padding: 2%;
+    height: 100%;
 }
 
 #boton_contraseña{
