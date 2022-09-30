@@ -106,7 +106,7 @@
     height: 84vh;
 }
 .pelicula .peli {
-    display: flex;
+    display: flex ;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
@@ -114,63 +114,36 @@
     width: 1000px;
     height: 490px;
     background-color: rgb(26, 25, 25);
-    align-self: center;
+    justify-content: space-around;
     top: 10px;
     
 }
+.pelicula .peli .image {
+    display: flex;
+    flex-direction: column;   
+}
 .pelicula .peli #imagen {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    height: 17pc;
-    top: 20px;
-    left: 20px;
+    height: 400px;    
 }
-.pelicula .peli .duracion {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 300px;
-    left: 10px;
-    width: 200px;
-    height: 50px;
 
-}
-.pelicula .peli .duracion .reloj {
-    display: flex;
-    flex-direction: row;
-    position: relative;
+.pelicula .peli .reloj {
     height: 40px;
 }
 .pelicula .peli .duracion #texto {
-    display: flex;
-    flex-direction: row;
-    position: relative;
     font-size: 30px;
     color: rgb(76, 154, 173);
-    left: 10px;
 }
 .pelicula .peli .sinopsis {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background: rgb(83, 81, 81);
-    position: absolute;
-    height: 310px;
-    width: 350px;
-    top: 15px;
-    left: 250px
+   height: 100px;
+   width: 100px;
+   background: rgb(83, 81, 81);
 }
 .pelicula .peli .seleccion {
     display: flex;
     flex-direction: column;
     background: rgb(83, 81, 81);
-    position: absolute;
     height: 225px;
     width: 350px;
-    top: 15px;
-    right: 20px
 }
 .pelicula .peli .seleccion #text {
     color: #fff;
