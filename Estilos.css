@@ -262,8 +262,8 @@ h2 {
     display: flex;
     flex-direction: column;
     max-width: 250px;   
-    max-height: 355px;
-    min-width: 250px;
+    max-height: 350px;
+    min-width: 220px;
     min-height: 355px;
     margin: 12px;
     position: relative;
@@ -276,9 +276,9 @@ h2 {
     display: flex;
     flex-direction: column;
     max-width: 250px;   
-    max-height: 355px;
-    min-width: 250px;
-    min-height: 355px;
+    max-height: 350px;
+    min-width: 220px;
+    min-height: 300px;
     margin: 12px;
     position: relative;
     background-size: cover;
