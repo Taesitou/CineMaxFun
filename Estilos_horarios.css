@@ -97,30 +97,22 @@
 }
 
 .pelicula {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
-    align-content: center;
-    justify-content: center;
-    height: 84vh;
+   height: 87.5vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 .pelicula .peli {
-    display: flex ;
-    flex-direction: row;
+    display: inline-flex;
     flex-wrap: wrap;
-    align-content: center;
-    position: absolute;
-    width: 1000px;
-    height: 490px;
-    background-color: rgb(26, 25, 25);
-    justify-content: space-around;
-    top: 10px;
+    justify-content: center;
+    column-gap: 50px;
     
 }
 .pelicula .peli .image {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
 }
 .pelicula .peli #imagen {
     height: 400px;    
@@ -128,14 +120,17 @@
 
 .pelicula .peli .reloj {
     height: 40px;
+    width: 40px;
 }
-.pelicula .peli .duracion #texto {
+.pelicula .peli #texto {
     font-size: 30px;
     color: rgb(76, 154, 173);
+
+    
 }
 .pelicula .peli .sinopsis {
-   height: 100px;
-   width: 100px;
+   height: 350px;
+   width: 350px;
    background: rgb(83, 81, 81);
 }
 .pelicula .peli .seleccion {
@@ -263,16 +258,13 @@
 }
 .pelicula .trailer {
     display: flex;
-    position: absolute;
-    height: 150px;
-    width: 250px;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 170px;
     justify-content: center;
-    bottom: -10px;
-    left: 270px;
 }
 
 #footer {
-    height: 11vh;
     background-color: #ffc300;
 }
 
@@ -287,6 +279,7 @@
     column-gap: 20px;
     padding-top: 10px;
     margin-left: 10px;
+    padding-bottom: 4px;
 }
 .iconos{
     width: 35px;
@@ -378,35 +371,26 @@
     
     }
     .pelicula {
-        justify-content: center;      
+        justify-content: center;
+        justify-items: center; 
+        margin-top: 50px;   
     }
     .pelicula .peli{
-       height: 90%;
+       height: auto;
        width: auto;
-       justify-content: center;
-       justify-items: center;
+       
             
     }
     .pelicula .peli #imagen {
-        top: -23%;
-
+    
     }
     .pelicula .peli .duracion{
         left: 15px;
         
     }
     .pelicula .peli .sinopsis {
-        left: -5%;
-        width: 120%;
+        width: 60%;
         height: 40%;
-        top: 63%;
-
-    
-        
-    }
-    .pelicula .peli .seleccion {
-        
-     
     }
     .pelicula .trailer {
         justify-content: center;
