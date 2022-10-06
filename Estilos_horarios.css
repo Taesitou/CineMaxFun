@@ -379,6 +379,15 @@
        justify-content: center;
             
     }
+    .pelicula .peli .image{
+        width: auto;
+        height: auto;
+    }
+    .pelicula .peli .image #imagen {
+        width: 300px;
+        height: 400px;
+
+    }
     .pelicula .peli .sinopsis {
         width: 80%;
         height: 40%;
