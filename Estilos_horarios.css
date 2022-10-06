@@ -97,7 +97,7 @@
 }
 
 .pelicula {
-   height: 87.5vh;
+   height: 87vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -107,7 +107,8 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 50px;
+    margin-top: 100px;
+    column-gap: 40px;
     
 }
 .pelicula .peli .image {
@@ -115,7 +116,7 @@
     flex-direction: column;
 }
 .pelicula .peli #imagen {
-    height: 400px;    
+    height: 300px;    
 }
 
 .pelicula .peli .reloj {
@@ -259,9 +260,9 @@
 .pelicula .trailer {
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
-    height: 170px;
-    justify-content: center;
+    width: 340px;
+    height: 140px;
+    margin-bottom: 70px;
 }
 
 #footer {
@@ -372,24 +373,14 @@
     }
     .pelicula {
         justify-content: center;
-        justify-items: center; 
         margin-top: 50px;   
     }
     .pelicula .peli{
-       height: auto;
-       width: auto;
-       
+       justify-content: center;
             
     }
-    .pelicula .peli #imagen {
-    
-    }
-    .pelicula .peli .duracion{
-        left: 15px;
-        
-    }
     .pelicula .peli .sinopsis {
-        width: 60%;
+        width: 80%;
         height: 40%;
     }
     .pelicula .trailer {
