@@ -107,7 +107,7 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: -2%;
     column-gap: 40px;
     
 }
@@ -261,7 +261,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 340px;
-    height: 140px;
+    height: 180px;
     margin-bottom: 70px;
 }
 
@@ -373,10 +373,12 @@
     }
     .pelicula {
         justify-content: center;
-        margin-top: 50px;   
+        margin-top: 50px;
+        height: auto; 
     }
     .pelicula .peli{
        justify-content: center;
+       margin-top: 10px;
             
     }
     .pelicula .peli .image{
@@ -386,17 +388,43 @@
     .pelicula .peli .image #imagen {
         width: 300px;
         height: 400px;
-
     }
     .pelicula .peli .sinopsis {
-        width: 80%;
-        height: 40%;
+        margin: 20px;
+        width: 90%;
     }
+    .pelicula .peli .seleccion {
+        width: 90%;
+    }
+    .pelicula .peli .seleccion .salas {
+        column-gap: 20%;
+    }
+
+    .pelicula .peli .seleccion .formato {
+        column-gap: 23.5%;
+    }
+
+    .pelicula .peli .seleccion .idioma {
+        column-gap: 10%;
+    }
+    .pelicula .peli .seleccion .idioma .botones_2 {
+        font-size: 85%;
+    }
+
+    .pelicula .peli .seleccion .fecha {
+        column-gap: 9%;
+    }
+
+    .pelicula .peli .seleccion .fecha .botones_1 {
+        font-size: 80%;
+    }
+
     .pelicula .trailer {
         justify-content: center;
-        bottom: 1%;
         left: 20%;
         width: 50%;
+        margin-top: 30px;
+        width: 90%;
         
     }
 }
