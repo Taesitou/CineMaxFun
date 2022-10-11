@@ -129,6 +129,13 @@ body{
     width: 50%;
     padding: 2%;
 }
+
+.datos_box{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
 #olvide_contraseña{
     width: 50%;
     padding: 2%;
