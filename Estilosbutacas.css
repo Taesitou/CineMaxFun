@@ -9,6 +9,11 @@ body{
 }
 
 /* Header */
+.style{
+    position: sticky;
+    z-index: 150;
+    top: 0;
+}
 .style .cabeza{
     background-color: #ffc300;
     height: 5vh;
@@ -32,6 +37,7 @@ body{
     font-weight: bold;
     color: black;
     text-decoration: none;
+
 
 }
 
@@ -94,6 +100,7 @@ body{
     margin: 5px;
     max-width: 35px;
 }
+
 .Fondo{
     position: relative;
     background-color: black;
@@ -127,7 +134,6 @@ body{
     display: flex;
     justify-content: space-between;
     height: 70%;
-    
 
 }
 
@@ -140,6 +146,8 @@ body{
     width: 50%;
     height: 88%;
     flex-direction: column;
+    min-height: 333px;
+    min-width: 446px;
 }
 
 #pantalla{
@@ -159,6 +167,7 @@ body{
 .sillon{
     height: 35px;
     width: 35px;
+    fill: #fff;
 }
 .sillon:hover{
     cursor: pointer;
@@ -331,4 +340,32 @@ body{
 .icon-youtube:hover{
     background-color: rgb(255, 41, 41);
     outline-color: rgb(255, 41, 41);
+}
+
+/*Responsive*/
+@media screen and (max-width:1000px) {
+    
+    .style .cabeza #name #nombre{
+        display: none;
+    }
+    .style #oprimir_logo{
+        height: 35px;
+    }
+    .style #Logo{
+        margin: auto;
+        height: 35px;
+        padding-left: 2px;
+        
+    }
+
+
+    #footer{
+        text-align: center;
+    }
+    .seguir_redes{
+        text-align: center;
+    }
+    .redes_sociales{
+        justify-content: center;
+    }
 }
