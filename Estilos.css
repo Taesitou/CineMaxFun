@@ -252,10 +252,11 @@ h2 {
 .formulario1 .contenedor_2 {
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
+    column-gap:5%;
+    margin:1%;
     padding-left: 10px;
-    padding-right: 10px;
     flex-wrap: wrap;
+    justify-items: center;
     
 }
 .formulario1 .card {
@@ -583,7 +584,7 @@ h2 {
     }
     
     .formulario1 .card-content{
-      height: 40%;
+      height: 30%;
     }
     
     .formulario1 .card1 {
@@ -592,6 +593,6 @@ h2 {
     }
 
     .formulario1 .card-content1 {
-      height: 35%;
+      height: 30%;
     }
 }
