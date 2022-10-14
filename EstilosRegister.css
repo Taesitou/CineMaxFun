@@ -161,15 +161,14 @@
 }
 
 
-/* Footer*/
+/* Redes Sociales*/
 
 #footer {
-    height: 10vh;
-    background-color: #FFC300;
+    background-color: #ffc300;
 }
 
 .seguir_redes{
-    color: #ffc300;
+    color: black;
     margin-left: 5px;
     text-align: left;
 
@@ -177,21 +176,23 @@
 .redes_sociales {
     display: flex;
     column-gap: 20px;
-    padding-left: 10px;
 }
 .iconos{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     font-size: 26px;
-    color: #ffc300;
+    color: #fff;
     border-radius: 50%;
-    outline: 2px solid  #ffc300;
+    outline: 2px solid  #ffc300; 
     transition-duration: .30s;
+    margin: 5px;
+    background-color: #ffc300;
 }
+
 .iconos:hover {
     outline-offset: 4px;
 }
