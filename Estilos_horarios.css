@@ -94,6 +94,13 @@
    width: 350px;
    background: rgb(83, 81, 81);
 }
+
+.pelicula .peli .sinopsis .descripcion  {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
 .pelicula .peli .seleccion {
     display: flex;
     flex-direction: column;
