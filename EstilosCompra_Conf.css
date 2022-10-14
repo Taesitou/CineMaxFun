@@ -100,12 +100,38 @@
     background-color: rgb(26, 25, 25);
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.formulario .confirmada {    
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+}
+.formulario .confirmada .image {
+    width: 100px;
+    padding: 10px;
+    padding-left: 70px;
+}
 
+.formulario .confirmada .text {
+    font-size: 20px;
+    color: white;
+}
+.formulario .bottones {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+.formulario .bottones .botton_1 {
 
+}
+
+.formulario .bottones .botton_2 {
+
+}
 
 /* Redes Sociales*/
 
