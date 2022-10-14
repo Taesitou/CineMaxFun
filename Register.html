@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarse</title>
     <link rel="stylesheet" href="EstilosRegister.css">
+    <script src="validar.js"></script>
     
 </head>
 <body class="body">
@@ -42,13 +43,13 @@
     <div class="inicio">
 
         <div class="contenedor">
-            <form action="" class="form" id="form">
+            <form onsubmit="return validacionReg()" action="Regis01" method="get" name="Regis" class="form" id="form">
                 <input type="name" name="nombre" id="nombre" placeholder="Ingrese su nombre" required > <br>
                 <input type="name" name="apellido" id="apellido" placeholder="Ingrese su apellido"> <br>
                 <input type="date" name="cumpleaños" id="cumpleaños" > <br>
                 <input type="email" name="email" id="mail" placeholder="Direccion E-mail"> <br>
-                <input type="password" name="contraseña" id="contraseña" placeholder="Tu contraseña"> <br>
-                <input type="password" name="re-contraseña" id="re-contraseña" placeholder="Confirma tu contraseña"> <br>
+                <input type="password" name="password01" id="contraseña" placeholder="Tu contraseña"> <br>
+                <input type="password" name="passwordR" id="re-contraseña" placeholder="Confirma tu contraseña"> <br>
                 <label for="" name="texto">*El mail se utilizara para cumplir con el formato de entrada QR</label>
                 <input type="submit" name="Enviar" id="Enviar" value="Enviar">
                 

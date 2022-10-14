@@ -76,3 +76,13 @@ function validarCheckout(){
     return res;
 }
 
+function validar(){
+    let res = true;
+    let fnombre = document.getElementById("nombre").value;
+    let apellido = document.getElementById("apellido").value;
+    if (soloLetras.test(fnombre) == false)  {
+        alert("El nombre y apellido debe de ser unicamente letras");
+        res = false;
+    }
+    return res;
+}
