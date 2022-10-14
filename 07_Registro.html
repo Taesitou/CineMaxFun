@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/07_styleRegistro.css">
+    <script language="javascript" type="text/javascript" src="../JavaScript/validar.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <div class="Head">
+            <a href=""><img src="../Fotos/logosincirculo.png" alt="Logo OM" class="logoh"></a>
+        </div>
+    </header>
+    <main>
+        <div class="todo">
+            
+            <div class="Registro">
+                <div class="Data">
+                    <form onsubmit="return validacionReg()" action="Regis01" method="get" name="Regis">
+                        <input type="email" name="email" id="cor01" placeholder="Email" class="email01" required><br>
+                        <input type="password" name="password01" id="pass01" placeholder="Contraseña" class="pass01" minlength="8" required><br>
+                        <input type="password" name="passwordR" id="pass01R" placeholder="Repetir Contraseña" class="pass01r" minlength="8" required><br>
+                        <input type="tel" name="tel" id="tel01" placeholder="Tel. ej: +54-11-4483-1242" maxlength="16" class="tel01" pattern="[+][0-9]{2}-[0-9]{2}-[0-9]{4}-[0-9]{4}" ><br>
+                        <div class="Fn">
+                            <label for="" class="textoFn">Fecha de nacimiento:</label><br>
+                            <input type="date" name="edad" id="edad01" class="edad01" placeholder="Fecha de nacimiento" required><br>
+                        </div>
+                        <input type="submit" value="Crear cuenta" class="boton01">
+                    </form>
+                </div>
+                <div class="Help">
+                    <form action="Ayuda01">
+                        <a href="05_Ayuda.html"><input  class="boton02" type="button" value="Ayuda"></a>
+                    </form>
+                </div>
+            </div>
+
+            <div class="box01">
+                <div class="Logo">
+                    <img src="../Fotos/logoconcirculo.png" alt="Logo OM" class="logo"> 
+                    <p class="textologo">
+                        <span>Online Market</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="foot">
+        <div class="info_cont">
+            <p>
+                Contacto
+            </p>
+            <p>
+                Teléfono: 011-4412-5627 <br>
+                Mail: ayuda@onlinemarket.com <br>
+            </p>
+        </div>
+        <p>Copyright © 2022-2022 OnlineMarket S.R.L.</p>
+    </footer>
+</body>
+</html>
