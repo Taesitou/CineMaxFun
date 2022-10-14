@@ -29,6 +29,5 @@ function Cambiar(clicked_id)
     }
 }
 
-function entrada(clicked_id)
     
 
