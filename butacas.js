@@ -19,5 +19,16 @@
 
 function Cambiar(clicked_id)
 {
-    document.getElementById(clicked_id).src = "imgs/butaca_seleccionada.svg";
+    var color = document.getElementById(clicked_id).src;
+    console.log(color);
+    if(document.getElementById(clicked_id).src === "file:///C:/Users/minec/Documents/GitHub/CineMaxFun/imgs/event_seat.svg"){
+        document.getElementById(clicked_id).src = "imgs/butaca_seleccionada.svg";
+    }  
+    else {
+        document.getElementById(clicked_id).src = "imgs/event_seat.svg";
+    }
 }
+
+function entrada(clicked_id)
+    
+
