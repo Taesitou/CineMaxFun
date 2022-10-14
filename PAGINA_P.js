@@ -28,4 +28,10 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+function iniciar_admin(){
+  if (document.getElementById("btn-switch").checked){
+    document.getElementById("login_page").href = "mi_perfil.html";
+    alert("Se activo el modo admin");
+  }
+}
 
