@@ -36,14 +36,55 @@
                 <img src="./imgs/estreno_avatar.jpeg" id="imagen" alt="..cargando">
             </div>
             <div class="fun">
+                <div id="contenido">
                 <p class="text">Avatar</p>
                 <p class="funcion">Funcion Mar 14 Oct 22:30</p>
                 <p class="aclaraciones">Seleccione la cantidad y el tipo de tickets a comprar. <br> Usted puede comprar un máximo de 4 tickets por transacción. <br> El ticket Niño se considera de 3 a 12 años.</p>
+                </div>
+                <table class="entradas">
+                    <tr>
+                        <th>Tickets</th>
+                        <th>Costo</th>
+                        <th>Cantidad</th>
+                        <th>Subtotal</th>
+                      </tr>
+                      <tr>
+                        <td>Entrada General</td>
+                        <td>1.100,00</td>
+                        <td>
+                            <button type="button" class="menos">-</button>
+                            <input type="number" id="quantity" name="quantity" min="0" max="4" step="1" value="0">
+                            <button type="button" class="menos">+</button>
+                        </td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>2x1 Santander</td>
+                        <td>1.100,00</td>
+                        <td>
+                            <button type="button" class="menos">-</button>
+                            <input type="number" id="quantity" name="quantity" min="0" max="4" step="1" value="0">
+                            <button type="button" class="menos">+</button>
+                        </td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Niño</td>
+                        <td>850,00</td>
+                        <td>
+                            <button type="button" class="menos">-</button>
+                            <input type="number" id="quantity" name="quantity" min="0" max="4" step="1" value="0">
+                            <button type="button" class="menos">+</button>
+                        </td>
+                        <td></td>
+                      </tr>
+                </table>
             </div>
 
+            <div id="compra_confirmar">
             <div class="compra">
                 <div class="text_1">
-                    Sus Compras
+                    Sus entradas
                 </div>
                 <div class="compras">
                     minions x entradas
@@ -52,48 +93,16 @@
                 <div class="total">
                     Total
                 </div>
+
+                
+
             </div>
-            <table class="entradas">
-                <tr>
-                    <th>Tickets</th>
-                    <th>Costo</th>
-                    <th>Cantidad</th>
-                    <th>Subtotal</th>
-                  </tr>
-                  <tr>
-                    <td>Entrada General</td>
-                    <td>1.100,00</td>
-                    <td>
-                        <button type="button" class="menos">-</button>
-                        <input type="number" id="quantity" name="quantity" min="0" max="4" step="1" value="0">
-                        <button type="button" class="menos">+</button>
-                    </td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>2x1 Santander</td>
-                    <td>1.100,00</td>
-                    <td>
-                        <button type="button" class="menos">-</button>
-                        <input type="number" id="quantity" name="quantity" min="0" max="4" step="1" value="0">
-                        <button type="button" class="menos">+</button>
-                    </td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>Niño</td>
-                    <td>850,00</td>
-                    <td>
-                        <button type="button" class="menos">-</button>
-                        <input type="number" id="quantity" name="quantity" min="0" max="4" step="1" value="0">
-                        <button type="button" class="menos">+</button>
-                    </td>
-                    <td></td>
-                  </tr>
-            </table>
             <div class="confirmar">
-                <a href="./butacas.html">Confirmar</a>
+                <a href="./butacas.html" id="confirmar_boton">Confirmar</a>
             </div>
+            </div>
+            
+            
 
         </div>
     </div>
