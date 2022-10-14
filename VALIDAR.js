@@ -39,6 +39,13 @@ function validacionReg(){ // valida que la contraseña tenga por lo meons una ma
     let z = x.match(Letra_mayus); // busca mayusculas
     let c = x.match(Num); // busca numero
     let r = w.match(mail); // busca formato mail
+    let nombre = document.getElementById("rnombre").value
+    let apellido = document.getElementById("rapellido").value
+    
+    if (soloLetras.test(nombre) == false || soloLetras.test(apellido) == false)  {
+        alert("El nombre y apellido debe de ser unicamente letras");
+        res = false;
+    }
 
     if(z == null) { // si .match retorna null(no encuentra), sale el msj y se retorna false
         alert("La contraseña debe tener al menos una letra mayuscula");
@@ -73,16 +80,5 @@ function validarCheckout(){
         res = false;
     }
 
-    return res;
-}
-
-function validar(){
-    let res = true;
-    let fnombre = document.getElementById("nombre").value;
-    let apellido = document.getElementById("apellido").value;
-    if (soloLetras.test(fnombre) == false)  {
-        alert("El nombre y apellido debe de ser unicamente letras");
-        res = false;
-    }
     return res;
 }
