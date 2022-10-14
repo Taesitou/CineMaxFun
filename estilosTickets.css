@@ -1,0 +1,270 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.body{
+    background-color: rgb(26, 25, 25);
+}
+.style{
+    position: sticky;
+    z-index: 150;
+    top: 0;
+}
+.style .cabeza{
+    background-color: #ffc300;
+    height: 5vh;
+    border: #ffc300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.style .cabeza #name{
+    display: flex;
+    align-content: center;
+}
+
+.style .cabeza #name #nombre{
+    align-self: center;
+    padding-left: 14px;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.style .cabeza #name #oprimir_logo{
+    display: flex;
+}
+.style #Logo{
+    padding-left: 5px;
+    height: 28px;
+}
+
+.style .cabeza #boton_inicio{
+    display: inline-block;
+}
+
+.style .cabeza #boton_inicio #login{
+    margin: 5px;
+    max-width: 35px;
+}
+.formulario{
+    height: 85vh;
+    background-color: rgb(26, 25, 25);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.formulario .peli {
+    display: inline-flex;
+
+}
+
+.formulario .peli .image {
+    display: flex;
+}
+.formulario .peli #imagen {
+    height: 260px;
+    width: 200px;    
+}
+.formulario .peli .fun{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .peli .fun .text {
+    padding-left: 20px;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+.formulario .peli .fun .funcion {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    background-color: green;
+    margin-left: 20px;
+    padding-left: 5px;
+}
+.formulario .peli .fun .aclaraciones {
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.formulario .peli .compra {
+    background-color: rgb(156, 156, 156);
+    height: 305px;
+    width: 230px;
+    position: relative;
+    right: -29%;
+}
+
+.formulario .peli .compra .text_1 {
+    background-color: #ffc300;
+    padding: 14px;
+}
+.formulario .peli .compra .compras {
+    height: 190px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.formulario .peli .compra .total {
+    padding-left: 10px;
+}
+.formulario .peli .entradas {
+    position: relative;
+    right: 35%;
+    top: 55%;
+}
+
+.formulario .peli .entradas #quantity {
+    margin-left: 5px;
+}
+
+table {
+    border: 1px solid;
+    border-color: white;
+  }
+td, th{
+    color: white;
+    padding: 10px;
+    
+}
+.formulario .peli .confirmar a{
+    background-color: #ffc300;
+    position: relative;
+    color: white;
+    padding: 10px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    top:120%;
+    right: 130%;
+    text-decoration: none;
+
+}
+
+
+/* Redes Sociales*/
+
+#footer {
+    background-color: #ffc300;
+}
+
+.seguir_redes{
+    color: black;
+    margin-left: 5px;
+    text-align: left;
+
+}
+.redes_sociales {
+    display: flex;
+    column-gap: 20px;
+}
+.iconos{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid  #ffc300; 
+    transition-duration: .30s;
+    margin: 5px;
+    background-color: #ffc300;
+}
+
+.iconos:hover {
+    outline-offset: 4px;
+}
+
+.icon-instagram:hover {
+    background-image:
+    radial-gradient(circle at 30% 107%,
+    #fdf497 0%, #fdf497 5%,#fd5949 45%,
+    #d6249f 60%, #285AEB 90%);
+    outline-color: #a02d76;
+}
+.icon-twitter:hover {
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+.icon-facebook:hover{
+    background-color: #285AEB;
+    outline-color: #285AEB;
+}
+.icon-youtube:hover{
+    background-color: rgb(255, 41, 41);
+    outline-color: rgb(255, 41, 41);
+}
+
+/*Responsive*/
+@media screen and (max-width:1000px) {
+    
+    .style .cabeza #name #nombre{
+        display: none;
+    }
+    .style #oprimir_logo{
+        height: 35px;
+    }
+    .style #Logo{
+        margin: auto;
+        height: 35px;
+        padding-left: 2px;
+        
+    }
+    .inicio{
+        justify-content: center;
+    }
+    .inicio #marca{
+        display: none;
+    }
+    .inicio .contenedor{
+        margin: auto;
+    }
+    .inicio .contenedor .form{
+        text-align: center;
+        
+        
+    }
+    .contenedor_2{
+      justify-content: center;
+
+    }
+    .inicio .contenedor .form #mail, #contraseña{
+        width: 200px;
+        margin: auto;
+    }
+    .inicio .contenedor .form .boton_check{
+        margin: auto;
+    }
+    .inicio .contenedor .form #Enviar{
+        top: 10px;
+        margin-left: 0px;
+        width: 240px;
+    }
+    #footer{
+        text-align: center;
+    }
+    .seguir_redes{
+        text-align: center;
+    }
+    .redes_sociales{
+        justify-content: center;
+    }
+}
