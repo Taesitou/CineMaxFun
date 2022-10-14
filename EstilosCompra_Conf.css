@@ -102,7 +102,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .formulario .confirmada {    
@@ -110,27 +110,69 @@
     display:flex;
     flex-direction: column;
 }
+
 .formulario .confirmada .image {
     width: 100px;
     padding: 10px;
     padding-left: 70px;
+    padding-top: 50px;
+    animation: shake 4.5s;
+    animation-iteration-count: infinite;  
 }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
 
 .formulario .confirmada .text {
     font-size: 20px;
     color: white;
+    padding-top: 20px;
 }
 .formulario .bottones {
     display: flex;
-    justify-content: center;
-    column-gap: 50px;
+    column-gap: 100px;
+    padding-right: 50px;
 }
-.formulario .bottones .botton_1 {
-
+.formulario .bottones  #Menu  {
+    background-color:#ffc300;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px 2px rgba(253, 221, 114, 0.4);
 }
 
-.formulario .bottones .botton_2 {
-
+.formulario .bottones #Ir_Historial  {
+    background-color: #ffc300;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px 2px rgba(253, 221, 114, 0.4);
+}
+.formulario .bottones  #Menu:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.formulario .bottones #Ir_Historial:hover{
+    opacity: 0.9;
+    cursor: pointer;
 }
 
 /* Redes Sociales*/
