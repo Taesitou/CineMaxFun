@@ -145,7 +145,7 @@
     margin-top: 50px;
 }
 
-.inicio .contenedor .form #nombre, #apellido ,#mail, #contraseña, #re-contraseña{
+.inicio .contenedor .form #rnombre, #rapellido ,#mail, #contraseña, #re-contraseña{
 
     width: 43%;
     height: 40px;
@@ -296,7 +296,7 @@
         margin: auto;
     }
 
-    .inicio .contenedor .form #nombre, #apellido, #cumpleaños {
+    .inicio .contenedor .form #rnombre, #rapellido, #cumpleaños {
 
         margin: auto;
     }

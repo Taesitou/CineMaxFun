@@ -39,6 +39,12 @@ function validacionReg(){ // valida que la contraseña tenga por lo meons una ma
     let z = x.match(Letra_mayus); // busca mayusculas
     let c = x.match(Num); // busca numero
     let r = w.match(mail); // busca formato mail
+    let nombre = document.getElementById("nombre").value
+    
+    if (soloLetras.test(nombre) == false)  {
+        alert("El nombre y apellido debe de ser unicamente letras");
+        res = false;
+    }
 
     if(z == null) { // si .match retorna null(no encuentra), sale el msj y se retorna false
         alert("La contraseña debe tener al menos una letra mayuscula");
