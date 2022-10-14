@@ -87,7 +87,51 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/* switch */
 
+.lbl-switch{
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+  background: #aaa;
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+}
+
+#btn-switch:checked~ .lbl-switch{
+  background: #19f800
+}
+
+.lbl-switch:after{
+  position: absolute;
+  content: '';
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  border-radius: 100px;
+  top: 4px;
+  left: 5px;
+  transition: 0.3s;
+}
+#btn-switch:checked~ .lbl-switch:after{
+  left: 28px;
+
+}
+
+#btn-switch{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+/*Boton de inicio*/
 
 .style .cabeza #boton_inicio{
     display: inline-block;
