@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Realizar Pago</title>
     <link rel="stylesheet" href="Estiloscompras.css">
+    <script src="compras.js"></script>
 </head>
 <body>
     <header class="style">
@@ -35,6 +36,7 @@
             </div>
             
             <h2 id="realizar_pago">Realizar pago</h2>
+            <form name="form1" action="#" id="formulario">
 
             <div id="contenedor">
                 <div class="datos_pagos">
@@ -51,14 +53,14 @@
                     <div class="datos_titulos">
                         <label>Numero de Tarjeta*</label>
                     </div>
-                    <input type="text">
+                    <input type="text" name="text_numero">
                 </div>
 
                 <div class="datos_pagos">
                     <div class="datos_titulos">
                         <label>Titular*</label>
                     </div>
-                    <input type="text">
+                    <input type="text" name="text_nombre">
                 </div>
 
                 <div class="datos_pagos">
@@ -106,16 +108,15 @@
 
             <div id="botones">
                 <a href="CineMaxFun.html">
-                    <button class="boton">
+                    <button class="boton" >
                         Cancelar Compra
                     </button>
                 </a>
                 <a href="compra_confirmada.html">
-                    <button class="boton">
-                        Pagar
-                    </button>
+                    <input type="submit" value="Pagar" class="boton" onclick="cardnumber(document.form1.text_numero), allLetter(document.form1.text_nombre)" >
                 </a>
             </div>
+            </form> 
 
         </div>
     </div>

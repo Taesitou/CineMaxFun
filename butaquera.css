@@ -1,0 +1,359 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+
+/* Header */
+.style{
+  position: sticky;
+  z-index: 150;
+  top: 0;
+}
+.style .cabeza{
+  background-color: #ffc300;
+  height: 5vh;
+  border: #ffc300;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.style .cabeza #name{
+  display: flex;
+  align-content: center;
+}
+
+.style .cabeza #name #nombre{
+  align-self: center;
+  padding-left: 14px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+
+
+}
+
+.style .cabeza #name #oprimir_logo{
+  display: flex;
+}
+.style #Logo{
+  padding-left: 5px;
+  height: 28px;
+}
+
+.style .cabeza #boton_inicio{
+  display: inline-block;
+}
+
+.style .cabeza #boton_inicio #login{
+  margin: 5px;
+  max-width: 35px;
+}
+
+body {
+  background-color: #242333;
+
+}
+
+#fondo{
+  position: relative;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  
+}
+#rectangulo{
+  display: flex;
+  position: relative;
+  background: #ffc300;
+  height: 75vh;
+  width: 1450px;
+  border-radius: 38px;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 3%;
+  padding-right: 3%;
+  box-sizing: border-box;
+  box-shadow: -10px 10px 13px rgba(255, 195, 0, 0.45);
+  
+}
+
+/* Contenedor de la habitacion y el finalice su compra */
+#habitacion_finalizar{
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+
+}
+
+/* Habitacion de pantalla y butacas */
+#habitacion{
+  display: flex;
+  box-sizing: border-box;
+  border: 6px solid black;
+  border-radius: 25px;
+  width: 50%;
+  height: 88%;
+  flex-direction: column;
+  min-height: 333px;
+  min-width: 446px;
+  justify-content: center;
+}
+
+
+
+
+
+.movie-container {
+  margin: 20px 0;
+}
+
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.container {
+  perspective: 1000px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seat {
+  background-color: #000;
+  height: 12px;
+  width: 15px;
+  margin: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.seat.selected {
+  background-color: #fff;
+}
+
+.seat.occupied {
+  background-color: rgb(255, 0, 0);
+}
+
+.seat:nth-of-type(2) {
+  margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2) {
+  margin-left: 18px;
+}
+
+.seat:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase .seat:not(.occupied):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+.showcase {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.showcase li small {
+  margin-left: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.screen {
+  background-color: #fff;
+  height: 70px;
+  width: 50%;
+  margin: 15px 0;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#habitacion_2{
+  display: flex;
+  box-sizing: border-box;
+  border: 4px solid black;
+  border-radius: 25px;
+  width: 27%;
+  height: 88%;
+  flex-direction: column;
+
+}
+
+#finalizar_titulo{
+   align-self: center;
+   border: 1px solid black;
+   height: 30%;
+   background: #ffc300;
+   border-radius: 25px 25px 0px 0px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p.text {
+  margin: 5px 0;
+  text-align: center;
+}
+
+p.text span {
+  color: #6feaf6;
+}
+
+
+#estados_botones{
+  display: flex;
+  justify-content: space-between;
+  height: 5%;
+
+}
+
+
+
+/* Botones atras y continuar */
+#botones{
+  width: 32%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+#volver, #continuar{
+  width: 200%;
+  height: 300%;
+  border-radius: 25px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  cursor: pointer;
+}
+#continuar{
+  background: #ffc300;
+  
+}
+
+
+
+
+#footer {
+  background-color: #ffc300;
+  height: 12vh;
+}
+
+.seguir_redes{
+  color: black;
+  margin-left: 5px;
+  text-align: left;
+
+}
+.redes_sociales {
+  display: flex;
+  column-gap: 20px;
+  margin-left: 5px;
+}
+.iconos{
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 26px;
+  color: #fff;
+  border-radius: 50%;
+  outline: 2px solid  #ffc300; 
+  transition-duration: .30s;
+  margin: 5px;
+  background-color: #ffc300;
+}
+
+.iconos:hover {
+  outline-offset: 4px;
+}
+
+.icon-instagram:hover {
+  background-image:
+  radial-gradient(circle at 30% 107%,
+  #fdf497 0%, #fdf497 5%,#fd5949 45%,
+  #d6249f 60%, #285AEB 90%);
+  outline-color: #a02d76;
+}
+.icon-twitter:hover {
+  background-color: #1da1f2;
+  outline-color: #1da1f2;
+}
+.icon-facebook:hover{
+  background-color: #285AEB;
+  outline-color: #285AEB;
+}
+.icon-youtube:hover{
+  background-color: rgb(255, 41, 41);
+  outline-color: rgb(255, 41, 41);
+}
+
+/*Responsive*/
+@media screen and (max-width:1000px) {
+  
+  .style .cabeza #name #nombre{
+      display: none;
+  }
+  .style #oprimir_logo{
+      height: 35px;
+  }
+  .style #Logo{
+      margin: auto;
+      height: 35px;
+      padding-left: 2px;
+      
+  }
+
+
+  #footer{
+      text-align: center;
+  }
+  .seguir_redes{
+      text-align: center;
+  }
+  .redes_sociales{
+      justify-content: center;
+  }
+}
