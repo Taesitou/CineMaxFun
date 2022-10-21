@@ -187,7 +187,6 @@
 }
 
 .pelicula .peli .seleccion #btn_col1, #btn_col2, #btn_col3, #btn_col4,#btn_col5,#btn_col6,#btn_col7 {
-    background-color: #fff;
     border: none;
 }
 .pelicula .peli .seleccion #btn_col1:hover, #btn_col2:hover, #btn_col3:hover, #btn_col4:hover, #btn_col5:hover, #btn_col6:hover, #btn_col7:hover {
@@ -195,6 +194,19 @@
     cursor: pointer;
     border-radius: 12px;
     color: white;
+}
+.pelicula .peli .seleccion .sel {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    color: black;    
+}
+
+.pelicula .peli .seleccion .nosel {
+    cursor: pointer;
+    border-radius: 12px;
+    color: white;  
+    background-color: #05a1fc;
 }
 
 .pelicula .peli .seleccion .cines .dropbtn {
@@ -410,7 +422,7 @@
         width: 50%;
         margin-top: 100px;
         width: 80%;
-        margin-right: 140px;
+        margin-right: 40%;
     }
     .pelicula .peli .seleccion .cines .flecha{
        right: -45px;
