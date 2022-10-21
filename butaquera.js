@@ -6,12 +6,9 @@ const total = document.getElementById('total');
 populateUI();
 let ticketPrice = 1000;
 
-// Save selected movie index and price
-function setMovieData(moviePrice) {
-  localStorage.setItem('selectedMoviePrice', moviePrice);
-}
 
-// update total and count
+
+// Actualiza la cuenta y el total
 function updateSelectedCount() {
   const selectedSeats = document.querySelectorAll('.row .seat.selected');
 
@@ -44,7 +41,7 @@ function populateUI() {
 }
 
 
-// Seat click event
+// Evento del asiento clickeado
 container.addEventListener('click', (e) => {
   if (e.target.classList.contains('seat') && !e.target.classList.contains('occupied')) {
     e.target.classList.toggle('selected');
@@ -53,5 +50,5 @@ container.addEventListener('click', (e) => {
   }
 });
 
-// intial count and total
+// cuenta inicial y total
 updateSelectedCount();
