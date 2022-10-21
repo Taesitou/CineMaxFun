@@ -134,18 +134,7 @@
     color: white;
     
 }
-.pelicula .peli .seleccion .botones {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 15px;
-}
-.pelicula .peli .seleccion .botones :hover {
-    background-color: #05a1fc;
-    color: white;
-    border: 1px solid ;
-    padding: 9px 9px;
-}
+
 .pelicula .peli .seleccion .formato {
     background-color: #fff;
     display: inline-flex;
@@ -172,21 +161,6 @@
     color: #fff;
 } 
 
-.pelicula .peli .seleccion .botones_2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 12px;
-}
-
-.pelicula .peli .seleccion .botones_2 :hover {
-    background-color: #05a1fc;
-    color: white;
-    border: 1px solid ;
-    padding: 9px 5px;
-
-}
-
 .pelicula .peli .seleccion .fecha{
     background-color: #fff;
     display: inline-flex;
@@ -197,20 +171,6 @@
     background-color: #05a1fc;
     padding: 10px 14px ;
     color: #fff;
-}
-
-.pelicula .peli .seleccion .botones_1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 12px;
-}
-.pelicula .peli .seleccion .botones_1 :hover {
-    background-color: #05a1fc;
-    color: white;
-    border: 1px solid ;
-    padding: 9px 5px;
-
 }
 
 .pelicula .peli .seleccion .cines {
@@ -224,6 +184,17 @@
     position: relative;
     display: inline-block;
     max-width: 350px;
+}
+
+.pelicula .peli .seleccion #btn_col1, #btn_col2, #btn_col3, #btn_col4,#btn_col5,#btn_col6,#btn_col7 {
+    background-color: #fff;
+    border: none;
+}
+.pelicula .peli .seleccion #btn_col1:hover, #btn_col2:hover, #btn_col3:hover, #btn_col4:hover, #btn_col5:hover, #btn_col6:hover, #btn_col7:hover {
+    background-color: #05a1fc;
+    cursor: pointer;
+    border-radius: 12px;
+    color: white;
 }
 
 .pelicula .peli .seleccion .cines .dropbtn {
@@ -247,6 +218,7 @@
 
 .dropbtn:hover, .dropbtn:focus {
     background-color: #2980B9;
+    cursor: pointer;
   }
 
 .dropdown-content {
