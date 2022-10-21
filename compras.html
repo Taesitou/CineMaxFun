@@ -36,7 +36,7 @@
             </div>
             
             <h2 id="realizar_pago">Realizar pago</h2>
-            <form name="form1" action="#" id="formulario">
+            <form name="form1" action="compra_confirmada.html" id="formulario">
 
             <div id="contenedor">
                 <div class="datos_pagos">
@@ -107,14 +107,12 @@
             </div>
 
             <div id="botones">
-                <a href="CineMaxFun.html">
-                    <button class="boton" >
-                        Cancelar Compra
-                    </button>
+                <a href="CineMaxFun.html" class="boton">
+                    Cancelar Compra
                 </a>
-                <a href="compra_confirmada.html">
-                    <input type="submit" value="Pagar" class="boton" onclick="cardnumber(document.form1.text_numero), allLetter(document.form1.text_nombre)" >
-                </a>
+                
+                <input type="submit" value="Pagar" class="boton" onclick="cardnumber(document.form1.text_numero), allLetter(document.form1.text_nombre)" >
+                
             </div>
             </form> 
 
