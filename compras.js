@@ -26,7 +26,7 @@ function numeroseguro(inputtxt)
       return false;
       }
    } 
-
+  
 
 
 function allLetter(inputtxt)
