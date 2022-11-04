@@ -186,7 +186,7 @@
     max-width: 350px;
 }
 
-.pelicula .peli .seleccion #btn_col1, #btn_col2, #btn_col3, #btn_col4,#btn_col5,#btn_col6,#btn_col7 {
+.pelicula .peli .seleccion #btn_col1, #btn_col2, #btn_col3, #btn_col4,#btn_col5,#btn_col6,#btn_col7, #btn_col8{
     border: none;
 }
 .pelicula .peli .seleccion #btn_col1:hover, #btn_col2:hover, #btn_col3:hover, #btn_col4:hover, #btn_col5:hover, #btn_col6:hover, #btn_col7:hover {
